@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Library</title>
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="My_Lib.css">
+    <link rel="stylesheet" href="vendor/fortawesome/font-awesome/css/all.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                <img alt="..." width="70px" src="https://upload.wikimedia.org/wikipedia/commons/3/38/UDGlogo.png">
+                LIBRARY
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Books.html">Books</a></li>
+                    <li><a href="Login_page.html">Login</a></li>
+                    <li><a href="Register.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid" id="cont">
+            <div class="row">
+                <div class="col-4">
+                    <img  alt="..." src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png">
+                </div>
+
+                <div class="col-8">
+                <p>Name: John Doe<br>
+                Date Of Birth: 22/11/2000<br>
+                School: School of Law<br>
+                Email: email@email.edu.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="container-fluid">
+    <div class="row" >
+        <div class="col">
+            <h1 style="margin-top: 10px">My Documentation:</h1>
+        </div>
+            <div class="row">
+                <div class="col col_sm">
+                    <img  alt="..." src="data:image/jpeg;base64,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">
+                </div>
+                <div class="col">
+                    <h3 >The Little Prince</h3>
+                    <br>
+                    <p>The Little Prince, first published in 1943, is a novella, the most famous work of French aristocrat, writer, poet, and pioneering aviator Antoine de Saint-Exupéry. The Little Prince is a poetic tale, with watercolor illustrations by the author, in which a pilot stranded in the desert meets a young prince visiting Earth from a tiny asteroid. The story is philosophical and includes social criticism of the adult world. </p>
+                    <br>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div class="col-2">
+                   <img src="https://cdn3.iconfinder.com/data/icons/virtual-notebook/16/button_share-512.png" alt="...">
+                 </div>
+            </div>
+        <div class="row">
+            <div class="col col_sm">
+                <img  alt="..." src="https://www.illuminatepublishing.com/wp-content/uploads/2020/11/9781908682703.jpg">
+            </div>
+            <div class="col">
+                <h3 >Physics</h3>
+                <br>
+                <p>Covers the Level 1 Physics and Science (Physical World) Achievement Standards P1.1 to P1.5 and S1.1. It features brief clearly explained theory, examples and activities for student practice. Answers are given in the back of the book. Use throughout the year to support classroom work, to help with internal assessments and to revise for end-of-year exams.</p>
+                <br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="col-2">
+                <img src="https://cdn3.iconfinder.com/data/icons/virtual-notebook/16/button_share-512.png" alt="...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col_sm">
+                <img  alt="..." src="https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262033848%26type%3D.jpg?itok=0zBreuLA">
+            </div>
+            <div class="col">
+                <h3 >Introduction to Algorithms</h3>
+                <br>
+                <p>The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.</p>
+                <br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="col-2">
+                <img src="https://cdn3.iconfinder.com/data/icons/virtual-notebook/16/button_share-512.png" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 item">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i><a href="https://webmail.udg.edu.me/">email@email.edu.com</a></li>
+                        <li><i class="fas fa-phone"></i><a href="#">+382123456789</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/University+of+Donja+Gorica/@42.417556,19.2006576,17z/data=!3m1!4b1!4m5!3m4!1s0x134dea639f1a4ab3:0xa01cdd51745388bf!8m2!3d42.417556!4d19.2028463?hl=pt-PT">Donja Gorica BB, Podgorica</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 item">
+                    <h3>Schools</h3>
+                    <ul>
+                        <li><i class="fas fa-school"></i><a href="https://fpn.udg.edu.me/">School of Law</a></li>
+                        <li><i class="fas fa-school"></i><a href="https://fprn.udg.edu.me/">School of Education</a></li>
+                        <li><i class="fas fa-school"></i><a href="https://fist.udg.edu.me/">School of Information Technologies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 item">
+                    <h3>Clubs</h3>
+                    <ul>
+                        <li><i class="fas fa-business-time"></i><a href="http://sbctim.me/">Business Club</a></li>
+                        <li><i class="fas fa-language"></i><a href="https://www.udg.edu.me/cfl/">Language Club</a></li>
+                        <li><i class="fas fa-football-ball"></i><a href="https://fsm.udg.edu.me/">Sports Club</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-2" href="https://www.facebook.com/udg.montenegro">
+                        <i class="fab fa-facebook-f"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-2" href="https://twitter.com/UDG_Montenegro">
+                        <i class="fab fa-twitter"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-2" href="https://www.udg.edu.me/">
+                        <i class="fab fa-google-plus-g"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-2" href="https://www.linkedin.com/school/universityofdonjagorica/">
+                        <i class="fab fa-linkedin-in"> </i>
+                    </a>
+                </li>
+            </ul>
+            <br>
+        </div>
+    </footer>
+</div>
+
+<script src="vendor/components/jquery/jquery.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
